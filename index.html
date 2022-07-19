@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Responsive</title>
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/44/44973.png" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="banner" id="sec">
+  <header>
+    <a href="#" class="logo">L O G O</a>
+    <div id="toggle" onclick="tooggle()"></div>
+  </header>
+<div class="content">
+<h2><br>EU SOU <span>Lucas França</span></h2>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+  when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  It has survived not only five centuries, but also the leap into electronic typesetting, 
+  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
+  sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+  like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  <a href="#">Saber mais...</a>
+</div>
+<ul class="sci">
+  <li><a href="#"><img src="facebook.png"></a></li>
+  <li><a href="#"><img src="twitter.png"></a></li>
+  <li><a href="#"><img src="linkedin.png"></a></li>
+</ul>
+</section>
+
+<div id="navigation">
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Sobre</a></li>
+  <li><a href="#">Trabalhos</a></li>
+  <li><a href="#">Portifolio</a></li>
+  <li><a href="#">Contatos</a></li>
+</ul>
+</div>
+
+<script type="text/javascript">
+  function tooggle(){
+    var sec = document.getElementById('sec');
+    var nav = document.getElementById('navigation');
+    sec.classList.toggle('active');
+    nav.classList.toggle('active');
+  }
+</script>
+
+
+</body>
+</html>
